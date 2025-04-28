@@ -34,7 +34,7 @@ function Filme() {
         return() => {
             console.log("Componente foi desmontado")
         }
-    }, [])
+    }, [navigate, id])
 
     function salvarFilme() {
         const minhaLista = localStorage.getItem('@primeFlix');
